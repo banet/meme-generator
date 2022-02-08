@@ -6,6 +6,7 @@ const Header = () => {
             <img src="../images/logo.svg" alt="logo" />
             <h2>Meme Generator</h2>
             <h4>React project nr3</h4>
+            
         </StyledHeader>
      );
 }
