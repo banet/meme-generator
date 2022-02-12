@@ -7,6 +7,7 @@ export const Form = styled.div`
     display:grid;
     grid-template: 40px 40px / 1fr 1fr;
     gap:17px;
+    width:450px;
 
     
 
