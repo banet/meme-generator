@@ -1,17 +1,20 @@
 import styled from 'styled-components'
 
 export const StyledContainer = styled.div`
-    padding:36px 36px 45px 36px 
+    width:550px;
+    background-color:#f3f4f5;
+    
 `
 export const Form = styled.div`
     display:grid;
     grid-template: 40px 40px / 1fr 1fr;
     gap:17px;
-    width:450px;
+    
 
     
 
 input {
+    margin-top:1rem;
     padding 1rem;
     border-radius: 5px;
     border: 1px solid #d5d4d8; 
@@ -29,14 +32,17 @@ input:focus{
 input:last-child {
     margin-right:none;
 }
+
+
 `
 
 
 export const Button = styled.button`
-    width: 100%;
+    
     border:0;
     border-radius: 5px;
     padding:.68rem;
+    
     background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
     cursor: pointer;
     color: white;
@@ -53,4 +59,10 @@ export const Button = styled.button`
     &:hover {
         opacity: .9;
     }
+`
+
+export const Image = styled.div`
+margin-top:2rem;
+     padding:36px 36px 45px 36px 
+    background:#f2f3f5;
 `
