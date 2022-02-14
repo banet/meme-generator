@@ -62,7 +62,8 @@ export const Button = styled.button`
 `
 
 export const Image = styled.div`
-margin-top:2rem;
-     padding:36px 36px 45px 36px 
+margin-top:1rem;
+
+padding:36px 36px 45px 36px 
     background:#f2f3f5;
 `
